@@ -1,0 +1,58 @@
+/* start scroll */
+
+.okay {
+  display: flex;
+  overflow-x: scroll;
+  padding: 24px;
+  width: 300px;
+  background: #ffffff;
+  scroll-snap-type: x mandatory;
+  scroll-padding: 24px;
+  border-radius: 8px;
+  gap: 12px;
+}
+.okay::-webkit-scrollbar {
+  height: 6px;
+}
+.okay::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.okay::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+.okay .item {
+  flex: 0 0 100%;
+  padding: 24px;
+  color: #ffffff;
+  border-radius: 8px;
+  scroll-snap-align: start;
+}
+.okay .item h2 {
+  text-transform: capitalize;
+}
+.okay .item h4 {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 500;
+  margin-top: 48px;
+  margin-bottom: 8px;
+}
+.okay .item:nth-child(1) {
+  background: linear-gradient(170deg, #6400ff, #4200ff);
+}
+.okay .item:nth-child(2) {
+  background: linear-gradient(170deg, #6400ff, #4200ff);
+}
+.okay .item:nth-child(3) {
+  background: linear-gradient(170deg, #6400ff, #4200ff);
+}
+.okay .item:nth-child(4) {
+  background: linear-gradient(170deg, #6400ff, #4200ff);
+}
+.okay .item:nth-child(5) {
+  background: linear-gradient(170deg, #6400ff, #4200ff);
+}
+
+/* end scroll */
